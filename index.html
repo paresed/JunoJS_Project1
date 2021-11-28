@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/setup.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto+Slab:wght@400;900&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0a16d8fc94.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Briefing Generator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <img
+          src="./assets/briefingGeneratorLogo.png"
+          alt="briefing generator logo"
+        />
+      </div>
+      <div class="startInput">
+        <p>
+          Hello! This is a Briefing Generator for graphic designers and friends
+          looking for inspiration to create pieces for their portfolios.
+        </p>
+        <form>
+          <label for="nameValue"
+            >What should I call you, fellow designer?</label
+          >
+          <input id="nameValue" type="text" maxlength="30" />
+          <input type="submit" value="Ok!" />
+        </form>
+      </div>
+      <div class="content" class="disabled"></div>
+      <div class="refresh" class="disabled">
+        <ul class="disabled">
+          <li class="flavor">
+            <i class="fas fa-sync-alt"></i>
+            <p>Flavor</p>
+          </li>
+          <li class="client">
+            <i class="fas fa-sync-alt" class="client"></i>
+            <p>Client</p>
+          </li>
+          <li class="business">
+            <i class="fas fa-sync-alt" class="business"></i>
+            <p>Business</p>
+          </li>
+          <li class="design">
+            <i class="fas fa-sync-alt" class="design"></i>
+            <p>Rules</p>
+          </li>
+          <li class="deliverable">
+            <i class="fas fa-sync-alt" class="deliverable"></i>
+            <p>Outcomes</p>
+          </li>
+        </ul>
+      </div>
+      <footer>
+        <p>
+          This generator was created at chez moi, for the Javascript Course at
+          <a href="http://junocollege.com" target="_blank">Juno College</a>.
+        </p>
+      </footer>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

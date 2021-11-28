@@ -1,0 +1,210 @@
+/* fonts: font-family: 'Roboto Slab', serif;
+font-family: 'Staatliches', sans serif; */
+
+html {
+  background: #fffde6;
+  line-height: 1.15;
+  font-family: "Roboto Slab", serif;
+  font-size: 100%;
+}
+
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+p,
+form,
+label {
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 50px 0 0 10px;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 5vh auto;
+  background-color: white;
+  box-shadow: 10px 10px 45px 10px rgba(0, 0, 0, 0.205);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.header img {
+  min-width: 200px;
+  height: auto;
+  object-fit: contain;
+}
+
+.startInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  width: 80%;
+  margin: auto;
+}
+
+.startInput p {
+  width: 86%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Staatliches", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  padding: 20px;
+  text-align: center;
+}
+
+#nameValue {
+  text-align: center;
+  padding: 10px 0;
+  font-family: "Staatliches", sans-serif;
+}
+
+input[type="submit"] {
+  padding: 10px 6px;
+  width: 30%;
+  height: 55px;
+  background-color: rgb(15, 121, 85);
+  border: none;
+  color: white;
+  margin: 10px;
+  transition-duration: 0.5s;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(46, 146, 0);
+}
+
+footer,
+footer p {
+  display: flex;
+  color: rgb(182, 182, 182);
+  justify-content: center;
+  font-size: 0.8rem;
+  margin-bottom: 5%;
+}
+
+.disabled {
+  display: none;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+  padding: 10px 10% 10% 100px;
+  display: grid;
+}
+
+.refresh {
+  width: 60%;
+  margin: auto;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: "Staatliches", sans serif;
+  font-size: 2rem;
+  width: 85px;
+  height: 80px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  transition-duration: 0.5s;
+}
+
+li:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+li p {
+  color: white;
+  margin: 5px 0;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flavor {
+  background-color: rgba(196, 230, 127, 0.438);
+}
+
+.client {
+  background-color: rgba(241, 192, 241, 0.425);
+}
+
+.business {
+  background-color: rgba(116, 218, 218, 0.438);
+}
+
+.design {
+  background-color: rgba(248, 167, 113, 0.411);
+}
+
+.deliverable {
+  background-color: rgba(149, 233, 194, 0.438);
+}
+
+.flavor,
+.client,
+.business,
+.design,
+.deliverable,
+designer {
+  font-weight: bolder;
+}
+
+.signature {
+  font-family: "Great Vibes", cursive;
+  color: rgb(37, 37, 143);
+  font-size: 2rem;
+  text-align: right;
+  border-bottom: 2px solid black;
+  padding-top: 40px;
+}
+
+.description {
+  font-size: 1rem;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
